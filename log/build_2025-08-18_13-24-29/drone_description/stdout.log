@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating drone_description.egg-info
+writing drone_description.egg-info/PKG-INFO
+writing dependency_links to drone_description.egg-info/dependency_links.txt
+writing entry points to drone_description.egg-info/entry_points.txt
+writing requirements to drone_description.egg-info/requires.txt
+writing top-level names to drone_description.egg-info/top_level.txt
+writing manifest file 'drone_description.egg-info/SOURCES.txt'
+reading manifest file 'drone_description.egg-info/SOURCES.txt'
+writing manifest file 'drone_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yahboom/5550_ros2_ws/install/drone_description/lib/python3.10/site-packages/drone-description.egg-link (link to .)
+
+Installed /home/yahboom/5550_ros2_ws/build/drone_description
+running symlink_data
+creating /home/yahboom/5550_ros2_ws/install/drone_description/share/ament_index
+creating /home/yahboom/5550_ros2_ws/install/drone_description/share/ament_index/resource_index
+creating /home/yahboom/5550_ros2_ws/install/drone_description/share/ament_index/resource_index/packages
+symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/resource/drone_description -> /home/yahboom/5550_ros2_ws/install/drone_description/share/ament_index/resource_index/packages
+symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/package.xml -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description
+creating /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/urdf
+symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/urdf/drone_base.urdf -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/urdf
+creating /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/launch
+symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/launch/display_rviz2.launch.py -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/launch
+symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/launch/spawn_in_gazebo.launch.py -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/launch
+creating /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/worlds
+symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/worlds/room4.world -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/worlds

@@ -1,0 +1,110 @@
+[0.013s] Invoking command in '/home/yahboom/5550_ros2_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/yahboom/5550_ros2_ws/install/cartographer_ros_msgs:/home/yahboom/5550_ros2_ws/install/cartographer:/home/yahboom/5550_ros2_ws/install/example_cpp:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/5550_ros2_ws/install/drone_description:/opt/ros/humble /usr/bin/cmake /home/yahboom/5550_ros2_ws/src/cartographer_ros/cartographer_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yahboom/5550_ros2_ws/install/cartographer_ros
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.236s] -- Detecting CXX compile features
+[0.236s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.419s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.448s] -- Looking for pthread.h
+[0.504s] -- Looking for pthread.h - found
+[0.504s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.562s] -- Found Threads: TRUE  
+[0.568s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.603s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.608s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.615s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.666s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.671s] -- Found required Ceres dependency: glog
+[0.671s] -- Found required Ceres dependency: gflags
+[0.671s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.674s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/yahboom/5550_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[0.810s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.882s] -- Checking for module 'eigen3'
+[0.892s] --   Found eigen3, version 3.4.0
+[0.918s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.918s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.939s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.940s] -- looking for PCL_COMMON
+[0.941s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.941s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[0.943s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.998s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.000s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.088s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.108s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.140s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.425s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[1.427s] -- Found rosbag2_cpp: 0.15.9 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.475s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.483s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.747s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.758s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.844s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.845s] -- Checking for one of the modules 'cairo>=1.12.16'
+[1.956s] -- Configuring done
+[2.036s] -- Generating done
+[2.038s] -- Build files have been written to: /home/yahboom/5550_ros2_ws/build/cartographer_ros
+[2.048s] Invoked command in '/home/yahboom/5550_ros2_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/yahboom/5550_ros2_ws/install/cartographer_ros_msgs:/home/yahboom/5550_ros2_ws/install/cartographer:/home/yahboom/5550_ros2_ws/install/example_cpp:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/5550_ros2_ws/install/drone_description:/opt/ros/humble /usr/bin/cmake /home/yahboom/5550_ros2_ws/src/cartographer_ros/cartographer_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yahboom/5550_ros2_ws/install/cartographer_ros
+[2.049s] Invoking command in '/home/yahboom/5550_ros2_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/yahboom/5550_ros2_ws/install/cartographer_ros_msgs:/home/yahboom/5550_ros2_ws/install/cartographer:/home/yahboom/5550_ros2_ws/install/example_cpp:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/5550_ros2_ws/install/drone_description:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/5550_ros2_ws/build/cartographer_ros -- -j4 -l4
+[2.089s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[2.090s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[3.100s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[3.100s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[3.481s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[11.091s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[11.927s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[13.332s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o[0m
+[14.665s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o[0m
+[17.712s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o[0m
+[18.931s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o[0m
+[21.503s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o[0m
+[22.786s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o[0m
+[24.460s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o[0m
+[30.112s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o[0m
+[30.383s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o[0m
+[31.480s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o[0m
+[33.765s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[34.847s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m
+[35.471s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o[0m
+[51.984s] [ 60%] [32m[1mLinking CXX shared library libcartographer_ros.so[0m
+[54.709s] [ 60%] Built target cartographer_ros
+[54.737s] [ 62%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[54.737s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[54.737s] [ 68%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[54.738s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[60.458s] [ 74%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[61.625s] [ 77%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[61.670s] [ 80%] [32m[1mLinking CXX executable cartographer_node[0m
+[61.915s] [ 80%] Built target cartographer_offline_node
+[61.950s] [ 82%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[63.021s] [ 82%] Built target cartographer_assets_writer
+[63.053s] [ 85%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[63.071s] [ 85%] Built target cartographer_node
+[63.095s] [ 88%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[64.590s] [01m[K/home/yahboom/5550_ros2_ws/src/cartographer_ros/cartographer_ros/src/rosbag_validate_main.cpp:44:10:[m[K [01;31m[Kfatal error: [m[Ktf2/utils.hpp: No such file or directory
+[64.594s]    44 | #include [01;31m[K<tf2/utils.hpp>[m[K
+[64.594s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[64.594s] compilation terminated.
+[64.598s] gmake[2]: *** [CMakeFiles/cartographer_rosbag_validate.dir/build.make:76: CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o] Error 1
+[64.598s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/cartographer_rosbag_validate.dir/all] Error 2
+[64.599s] gmake[1]: *** Waiting for unfinished jobs....
+[65.709s] [ 91%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[67.073s] [ 91%] Built target cartographer_occupancy_grid_node
+[68.522s] [ 94%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[69.414s] [ 94%] Built target cartographer_pbstream_to_ros_map
+[69.671s] [ 97%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[70.518s] [ 97%] Built target cartographer_pbstream_map_publisher
+[70.522s] gmake: *** [Makefile:146: all] Error 2
+[70.585s] Invoked command in '/home/yahboom/5550_ros2_ws/build/cartographer_ros' returned '2': CMAKE_PREFIX_PATH=/home/yahboom/5550_ros2_ws/install/cartographer_ros_msgs:/home/yahboom/5550_ros2_ws/install/cartographer:/home/yahboom/5550_ros2_ws/install/example_cpp:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/5550_ros2_ws/install/drone_description:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/5550_ros2_ws/build/cartographer_ros -- -j4 -l4

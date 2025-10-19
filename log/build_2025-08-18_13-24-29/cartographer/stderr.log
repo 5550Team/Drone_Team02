@@ -1,0 +1,63 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Lua) does
+  not match the name of the calling package (LuaGoogle).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindLuaGoogle.cmake:211 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  CMakeLists.txt:41 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/mapping/map_builder.cc:[m[K In function ‘[01m[Kvoid cartographer::mapping::{anonymous}::MaybeAddPureLocalizationTrimmer(int, const cartographer::mapping::proto::TrajectoryBuilderOptions&, cartographer::mapping::PoseGraph*)[m[K’:
+[01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/mapping/map_builder.cc:60:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool cartographer::mapping::proto::TrajectoryBuilderOptions::pure_localization() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |   if ([01;35m[Ktrajectory_options.pure_localization()[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/serialization.pb.h:39[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/mapping/submaps.h:28[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/mapping/map_builder_interface.h:29[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/mapping/map_builder.h:23[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/mapping/map_builder.cc:17[m[K:
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.h:1599:13:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1599 | inline bool [01;36m[KTrajectoryBuilderOptions[m[K::pure_localization() const {
+      |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:[m[K In member function ‘[01m[Kvirtual google::protobuf::uint8* cartographer::mapping::proto::TrajectoryBuilderOptions::_InternalSerialize(google::protobuf::uint8*, google::protobuf::io::EpsCopyOutputStream*) const[m[K’:
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:1077:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool cartographer::mapping::proto::TrajectoryBuilderOptions::pure_localization() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1077 |   if ([01;35m[Kthis->pure_localization()[m[K != 0) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:4[m[K:
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.h:1599:13:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1599 | inline bool [01;36m[KTrajectoryBuilderOptions[m[K::pure_localization() const {
+      |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:[m[K In member function ‘[01m[Kvirtual size_t cartographer::mapping::proto::TrajectoryBuilderOptions::ByteSizeLong() const[m[K’:
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:1170:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool cartographer::mapping::proto::TrajectoryBuilderOptions::pure_localization() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1170 |   if ([01;35m[Kthis->pure_localization()[m[K != 0) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:4[m[K:
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.h:1599:13:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1599 | inline bool [01;36m[KTrajectoryBuilderOptions[m[K::pure_localization() const {
+      |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:[m[K In member function ‘[01m[Kvoid cartographer::mapping::proto::TrajectoryBuilderOptions::MergeFrom(const cartographer::mapping::proto::TrajectoryBuilderOptions&)[m[K’:
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:1230:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool cartographer::mapping::proto::TrajectoryBuilderOptions::pure_localization() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1230 |   if ([01;35m[Kfrom.pure_localization()[m[K != 0) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.cc:4[m[K:
+[01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/mapping/proto/trajectory_builder_options.pb.h:1599:13:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1599 | inline bool [01;36m[KTrajectoryBuilderOptions[m[K::pure_localization() const {
+      |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/io/probability_grid_points_processor_test.cc:[m[K In function ‘[01m[Kstd::vector<char> cartographer::io::{anonymous}::CreateExpectedProbabilityGrid(std::unique_ptr<cartographer::io::PointsBatch>, cartographer::common::LuaParameterDictionary*)[m[K’:
+[01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/io/probability_grid_points_processor_test.cc:93:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint google::protobuf::MessageLite::ByteSize() const[m[K’ is deprecated: Please use ByteSizeLong() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   93 |       [01;35m[Kprobability_grid.ToProto().ByteSize()[m[K);
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/google/protobuf/generated_enum_util.h:36[m[K,
+                 from [01m[K/usr/include/google/protobuf/map.h:49[m[K,
+                 from [01m[K/usr/include/google/protobuf/generated_message_table_driven.h:34[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/build/cartographer/cartographer/sensor/proto/sensor.pb.h:26[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:23[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/io/points_batch.h:28[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/io/image.h:27[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/io/probability_grid_points_processor.h:23[m[K,
+                 from [01m[K/home/yahboom/5550_ros2_ws/src/cartographer/cartographer/io/probability_grid_points_processor_test.cc:17[m[K:
+[01m[K/usr/include/google/protobuf/message_lite.h:408:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  408 |   int [01;36m[KByteSize[m[K() const { return internal::ToIntSize(ByteSizeLong()); }
+      |       [01;36m[K^~~~~~~~[m[K

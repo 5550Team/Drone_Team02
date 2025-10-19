@@ -1,0 +1,2 @@
+Invoking command in '/home/yahboom/5550_ros2_ws/build/drone_navigation2': /usr/bin/cmake /home/yahboom/5550_ros2_ws/src/drone_navigation2 -DCMAKE_INSTALL_PREFIX=/home/yahboom/5550_ros2_ws/install/drone_navigation2
+Invoked command in '/home/yahboom/5550_ros2_ws/build/drone_navigation2' returned '1': /usr/bin/cmake /home/yahboom/5550_ros2_ws/src/drone_navigation2 -DCMAKE_INSTALL_PREFIX=/home/yahboom/5550_ros2_ws/install/drone_navigation2

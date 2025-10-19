@@ -1,0 +1,25 @@
+[0.028s] Invoking command in '/home/yahboom/5550_ros2_ws/build/drone_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/5550_ros2_ws/install/yahboomcar_nav:/home/yahboom/5550_ros2_ws/install/drone_description:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/5550_ros2_ws/build/drone_cartographer -- -j4 -l4
+[0.229s] Invoked command in '/home/yahboom/5550_ros2_ws/build/drone_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/5550_ros2_ws/install/yahboomcar_nav:/home/yahboom/5550_ros2_ws/install/drone_description:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/5550_ros2_ws/build/drone_cartographer -- -j4 -l4
+[0.269s] Invoking command in '/home/yahboom/5550_ros2_ws/build/drone_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/5550_ros2_ws/install/yahboomcar_nav:/home/yahboom/5550_ros2_ws/install/drone_description:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/5550_ros2_ws/build/drone_cartographer
+[0.279s] -- Install configuration: ""
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/ament_index/resource_index/package_run_dependencies/drone_cartographer
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/ament_index/resource_index/parent_prefix_path/drone_cartographer
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/environment/ament_prefix_path.sh
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/environment/ament_prefix_path.dsv
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/environment/path.sh
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/environment/path.dsv
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/local_setup.bash
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/local_setup.sh
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/local_setup.zsh
+[0.279s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/local_setup.dsv
+[0.279s] -- Installing: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/package.dsv
+[0.280s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/ament_index/resource_index/packages/drone_cartographer
+[0.281s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/cmake/drone_cartographerConfig.cmake
+[0.281s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/cmake/drone_cartographerConfig-version.cmake
+[0.282s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/package.xml
+[0.283s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/config
+[0.283s] -- Installing: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/config/drone_2d.lua
+[0.283s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/launch
+[0.283s] -- Installing: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/launch/cartographer.launch.py
+[0.283s] -- Up-to-date: /home/yahboom/5550_ros2_ws/install/drone_cartographer/share/drone_cartographer/rviz
+[0.283s] Invoked command in '/home/yahboom/5550_ros2_ws/build/drone_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/5550_ros2_ws/install/yahboomcar_nav:/home/yahboom/5550_ros2_ws/install/drone_description:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/5550_ros2_ws/build/drone_cartographer

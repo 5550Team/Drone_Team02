@@ -1,0 +1,73 @@
+running egg_info
+creating ../../build/yahboomcar_nav/yahboomcar_nav.egg-info
+writing ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/entry_points.txt
+writing requirements to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/requires.txt
+writing top-level names to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/top_level.txt
+writing manifest file '../../build/yahboomcar_nav/yahboomcar_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/yahboomcar_nav/yahboomcar_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/yahboomcar_nav/yahboomcar_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build
+creating /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build/lib
+creating /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build/lib/yahboomcar_nav
+copying yahboomcar_nav/__init__.py -> /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build/lib/yahboomcar_nav
+running install
+running install_lib
+creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav
+copying /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build/lib/yahboomcar_nav/__init__.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav
+byte-compiling /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/ament_index
+creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/ament_index/resource_index
+creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/ament_index/resource_index/packages
+copying resource/yahboomcar_nav -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav
+creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/map_cartographer_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/save_map_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/cartographer_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/navigation_rtabmap_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/laser_bringup_gmapping_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/rtabmap_viz_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/laser_bringup_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/display_rtabmap_map_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/rtabmap_scan.launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/map_gmapping_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/rtabmap_nav_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/map_rtabmap_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/navigation_dwb_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/navigation_teb_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/display_rtabmap_nav_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/rtabmap_sync_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/occupancy_grid_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/rtabmap_localization_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/rtabmap_rgbd.launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/map_cartographer_app_launch.xml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/navigation_dwb_app_launch.xml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+copying launch/map_gmapping_app_launch.xml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/rviz
+copying rviz/rtabmap_nav.rviz -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/rviz
+copying rviz/rtabmap_map.rviz -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/rviz
+creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+copying params/rtabmap_nav_params.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+copying params/dwb_nav_params.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+copying params/teb_nav_params.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+copying params/cartographer_config.lua -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/yahboom_map1.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/12345.yaml.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/test.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/11113444.yaml.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/11113444.yaml.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/yahboom_map1.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/yahboom_map.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/12345.yaml.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/test.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+copying maps/yahboom_map.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+running install_egg_info
+Copying ../../build/yahboomcar_nav/yahboomcar_nav.egg-info to /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yahboom/5550_ros2_ws/build/yahboomcar_nav/install.log'

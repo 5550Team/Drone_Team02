@@ -1,0 +1,75 @@
+[0.486s] Invoking command in '/home/yahboom/5550_ros2_ws/src/yahboomcar_nav': PYTHONPATH=/home/yahboom/5550_ros2_ws/build/yahboomcar_nav/prefix_override:/home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yahboomcar_nav build --build-base /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build install --record /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/install.log --single-version-externally-managed install_data
+[0.639s] running egg_info
+[0.639s] creating ../../build/yahboomcar_nav/yahboomcar_nav.egg-info
+[0.639s] writing ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/PKG-INFO
+[0.640s] writing dependency_links to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/dependency_links.txt
+[0.640s] writing entry points to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/entry_points.txt
+[0.640s] writing requirements to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/requires.txt
+[0.640s] writing top-level names to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/top_level.txt
+[0.640s] writing manifest file '../../build/yahboomcar_nav/yahboomcar_nav.egg-info/SOURCES.txt'
+[0.641s] reading manifest file '../../build/yahboomcar_nav/yahboomcar_nav.egg-info/SOURCES.txt'
+[0.642s] writing manifest file '../../build/yahboomcar_nav/yahboomcar_nav.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] creating /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build
+[0.642s] creating /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build/lib
+[0.642s] creating /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build/lib/yahboomcar_nav
+[0.642s] copying yahboomcar_nav/__init__.py -> /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build/lib/yahboomcar_nav
+[0.643s] running install
+[0.643s] running install_lib
+[0.644s] creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav
+[0.644s] copying /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build/lib/yahboomcar_nav/__init__.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav
+[0.644s] byte-compiling /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav/__init__.py to __init__.cpython-310.pyc
+[0.644s] running install_data
+[0.644s] creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/ament_index
+[0.644s] creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/ament_index/resource_index
+[0.644s] creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/ament_index/resource_index/packages
+[0.644s] copying resource/yahboomcar_nav -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/ament_index/resource_index/packages
+[0.644s] copying package.xml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav
+[0.645s] creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/map_cartographer_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/save_map_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/cartographer_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/navigation_rtabmap_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/laser_bringup_gmapping_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/rtabmap_viz_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/laser_bringup_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/display_rtabmap_map_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/rtabmap_scan.launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/map_gmapping_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/rtabmap_nav_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/map_rtabmap_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/navigation_dwb_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/navigation_teb_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.645s] copying launch/display_rtabmap_nav_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.646s] copying launch/rtabmap_sync_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.646s] copying launch/occupancy_grid_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.646s] copying launch/rtabmap_localization_launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.646s] copying launch/rtabmap_rgbd.launch.py -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.646s] copying launch/map_cartographer_app_launch.xml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.646s] copying launch/navigation_dwb_app_launch.xml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.646s] copying launch/map_gmapping_app_launch.xml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/launch
+[0.646s] creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/rviz
+[0.646s] copying rviz/rtabmap_nav.rviz -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/rviz
+[0.646s] copying rviz/rtabmap_map.rviz -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/rviz
+[0.646s] creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+[0.646s] copying params/rtabmap_nav_params.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+[0.646s] copying params/dwb_nav_params.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+[0.647s] copying params/teb_nav_params.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+[0.647s] copying params/cartographer_config.lua -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+[0.647s] creating /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.647s] copying maps/yahboom_map1.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.647s] copying maps/12345.yaml.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.647s] copying maps/test.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.647s] copying maps/11113444.yaml.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.647s] copying maps/11113444.yaml.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.648s] copying maps/yahboom_map1.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.648s] copying maps/yahboom_map.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.648s] copying maps/12345.yaml.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.649s] copying maps/test.pgm -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.649s] copying maps/yahboom_map.yaml -> /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/share/yahboomcar_nav/maps
+[0.649s] running install_egg_info
+[0.650s] Copying ../../build/yahboomcar_nav/yahboomcar_nav.egg-info to /home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav-0.0.0-py3.10.egg-info
+[0.651s] running install_scripts
+[0.663s] writing list of installed files to '/home/yahboom/5550_ros2_ws/build/yahboomcar_nav/install.log'
+[0.675s] Invoked command in '/home/yahboom/5550_ros2_ws/src/yahboomcar_nav' returned '0': PYTHONPATH=/home/yahboom/5550_ros2_ws/build/yahboomcar_nav/prefix_override:/home/yahboom/5550_ros2_ws/install/yahboomcar_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yahboomcar_nav build --build-base /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/build install --record /home/yahboom/5550_ros2_ws/build/yahboomcar_nav/install.log --single-version-externally-managed install_data

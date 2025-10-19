@@ -1,0 +1,20 @@
+[0.481s] Invoking command in '/home/yahboom/5550_ros2_ws/src/drone_description': PYTHONPATH=/home/yahboom/5550_ros2_ws/build/drone_description/prefix_override:/home/yahboom/5550_ros2_ws/install/drone_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_description build --build-base /home/yahboom/5550_ros2_ws/build/drone_description/build install --record /home/yahboom/5550_ros2_ws/build/drone_description/install.log --single-version-externally-managed install_data
+[0.629s] running egg_info
+[0.629s] writing ../../build/drone_description/drone_description.egg-info/PKG-INFO
+[0.629s] writing dependency_links to ../../build/drone_description/drone_description.egg-info/dependency_links.txt
+[0.630s] writing entry points to ../../build/drone_description/drone_description.egg-info/entry_points.txt
+[0.630s] writing requirements to ../../build/drone_description/drone_description.egg-info/requires.txt
+[0.630s] writing top-level names to ../../build/drone_description/drone_description.egg-info/top_level.txt
+[0.631s] reading manifest file '../../build/drone_description/drone_description.egg-info/SOURCES.txt'
+[0.632s] writing manifest file '../../build/drone_description/drone_description.egg-info/SOURCES.txt'
+[0.632s] running build
+[0.632s] running build_py
+[0.632s] running install
+[0.633s] running install_lib
+[0.634s] running install_data
+[0.634s] running install_egg_info
+[0.635s] removing '/home/yahboom/5550_ros2_ws/install/drone_description/lib/python3.10/site-packages/drone_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.635s] Copying ../../build/drone_description/drone_description.egg-info to /home/yahboom/5550_ros2_ws/install/drone_description/lib/python3.10/site-packages/drone_description-0.0.0-py3.10.egg-info
+[0.636s] running install_scripts
+[0.648s] writing list of installed files to '/home/yahboom/5550_ros2_ws/build/drone_description/install.log'
+[0.660s] Invoked command in '/home/yahboom/5550_ros2_ws/src/drone_description' returned '0': PYTHONPATH=/home/yahboom/5550_ros2_ws/build/drone_description/prefix_override:/home/yahboom/5550_ros2_ws/install/drone_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_description build --build-base /home/yahboom/5550_ros2_ws/build/drone_description/build install --record /home/yahboom/5550_ros2_ws/build/drone_description/install.log --single-version-externally-managed install_data

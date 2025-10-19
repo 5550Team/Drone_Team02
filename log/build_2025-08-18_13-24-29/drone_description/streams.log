@@ -1,0 +1,32 @@
+[0.722s] Invoking command in '/home/yahboom/5550_ros2_ws/build/drone_description': PYTHONPATH=/home/yahboom/5550_ros2_ws/build/drone_description/prefix_override:/home/yahboom/5550_ros2_ws/install/drone_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/5550_ros2_ws/build/drone_description/build --no-deps symlink_data
+[0.938s] running develop
+[0.939s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.939s]   warnings.warn(
+[1.077s] running egg_info
+[1.077s] creating drone_description.egg-info
+[1.077s] writing drone_description.egg-info/PKG-INFO
+[1.077s] writing dependency_links to drone_description.egg-info/dependency_links.txt
+[1.077s] writing entry points to drone_description.egg-info/entry_points.txt
+[1.077s] writing requirements to drone_description.egg-info/requires.txt
+[1.079s] writing top-level names to drone_description.egg-info/top_level.txt
+[1.079s] writing manifest file 'drone_description.egg-info/SOURCES.txt'
+[1.079s] reading manifest file 'drone_description.egg-info/SOURCES.txt'
+[1.079s] writing manifest file 'drone_description.egg-info/SOURCES.txt'
+[1.081s] running build_ext
+[1.081s] Creating /home/yahboom/5550_ros2_ws/install/drone_description/lib/python3.10/site-packages/drone-description.egg-link (link to .)
+[1.082s] 
+[1.082s] Installed /home/yahboom/5550_ros2_ws/build/drone_description
+[1.082s] running symlink_data
+[1.082s] creating /home/yahboom/5550_ros2_ws/install/drone_description/share/ament_index
+[1.084s] creating /home/yahboom/5550_ros2_ws/install/drone_description/share/ament_index/resource_index
+[1.084s] creating /home/yahboom/5550_ros2_ws/install/drone_description/share/ament_index/resource_index/packages
+[1.084s] symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/resource/drone_description -> /home/yahboom/5550_ros2_ws/install/drone_description/share/ament_index/resource_index/packages
+[1.084s] symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/package.xml -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description
+[1.084s] creating /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/urdf
+[1.084s] symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/urdf/drone_base.urdf -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/urdf
+[1.084s] creating /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/launch
+[1.084s] symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/launch/display_rviz2.launch.py -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/launch
+[1.084s] symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/launch/spawn_in_gazebo.launch.py -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/launch
+[1.085s] creating /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/worlds
+[1.085s] symbolically linking /home/yahboom/5550_ros2_ws/build/drone_description/worlds/room4.world -> /home/yahboom/5550_ros2_ws/install/drone_description/share/drone_description/worlds
+[1.099s] Invoked command in '/home/yahboom/5550_ros2_ws/build/drone_description' returned '0': PYTHONPATH=/home/yahboom/5550_ros2_ws/build/drone_description/prefix_override:/home/yahboom/5550_ros2_ws/install/drone_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/5550_ros2_ws/build/drone_description/build --no-deps symlink_data
